@@ -54,8 +54,12 @@ body{
     background-color: #F8C560;
     box-shadow:2px 0px 0px 2px #000000;
     border-radius: 20px;
-    margin: 40px;
+    margin: 40px;  
     }
+.kasse {
+  border-left:dashed #000000;
+  border-width:12px;
+}
     div {
     display: flex;
     flex-direction: row;
@@ -63,14 +67,13 @@ body{
     justify-content: space-evenly;
     text-align: center;
     letter-spacing: 2px;
+    font-size: 30px;
     text-shadow:2px 0px black;
-    font-size: 60px;
       }
   .tegneserie{
     height: 45vh;
     width: 45vh;
     padding: 20px;
-    margin:;
   }
 .billeder{
     height: 80%;
@@ -81,21 +84,39 @@ body{
   padding: 3rem;
   margin-top: auto;
   background-color: #E3E1D7;
+  letter-spacing: 3px;
 
 }
 /*om mig side style */
 .kasseommig{
     width: 50vh;
-    height: 50vh;
+    height: 60vh;
     display: flex;
     background-color: #F8C560;
     margin: auto;
 }
+.photo{
+  width: 50%;
+  border-radius: 100%;
+  display: flex;
+  margin: auto;
+  padding: 30px;
+}
 
+H1{
+  font-size: 40px;
+}
+p{
+  font-size: 20px;
+  margin: 1px;
+  letter-spacing: 2px;
+  text-shadow: 1px;
+
+}
 /*portlie side*/
-.portfolieright{
-    width: 70%;
-    height: 15vh;
+.portfolie1{
+    width: 80%;
+    height: 50vh;
     display: flex;
     background-color: #F8C560;
     margin: 40px;
@@ -104,9 +125,9 @@ body{
     letter-spacing: 2px;
     text-shadow:2px 0px black;
 }   
-.portfolieleft{
-    width: 70%;
-    height: 15vh;
+.portfolie2{
+    width: 80%;
+    height: 150vh;
     display: flex;
     background-color: #F8C560;
     margin: 40px;
@@ -115,6 +136,86 @@ body{
     letter-spacing: 2px;
     text-shadow:2px 0px black;
 }   
+
+.portfolie3{
+  width: 80%;
+  height: 100vh;
+  display: flex;
+  background-color: #F8C560;
+  margin: 50px;
+  margin-right: auto;
+  font-size: 20px;
+  letter-spacing: 2px;
+  text-shadow:2px 0px black;
+}   
+.kode{
+  width: 30vh;
+  height: 30vh;
+}
+.css{
+  width: 20vh;
+  height: 30vh;
+}
+.portfolie4{
+  width: 80%;
+  height: 70vh;
+  display: flex;
+  background-color: #F8C560;
+  margin: 40px;
+  margin-left: auto;
+  font-size: 20px;
+  letter-spacing: 2px;
+  text-shadow:2px 0px black;
+}
+.krokodille1{
+  width: 25vh;
+  height: 10vh ;
+}
+.animationcss1{
+  width: 10vh;
+  height:10vh ;
+}
+.portfolie5{
+  width: 80%;
+  height: 50vh;
+  display: flex;
+  background-color: #F8C560;
+  margin: 40px;
+  margin-right: auto;
+  font-size: 20px;
+  letter-spacing: 2px;
+  text-shadow:2px 0px black;
+}   
+.art{
+  width: 50vh;
+  height: 30vh;
+}
+.portfolie6{
+  width: 80%;
+  height: 70vh;
+  display: flex;
+  background-color: #F8C560;
+  margin: 40px;
+  margin-left: auto;
+  font-size: 20px;
+  letter-spacing: 2px;
+  text-shadow:2px 0px black;
+}
+.billede1{
+  width: 20vh;
+  height: 20vh;
+}
+
+.billede2{
+  width: 20vh;
+  height: 15vh;
+}
+.animationbilleder{
+  width: 40%;
+  display: flex;
+  margin: auto;
+  padding: 30px;
+}
 /* Nu kommer ipad version*/
 @media only screen and (min-width:650px) {
     body{
@@ -140,7 +241,34 @@ body{
         }
         div {
         font-size: 40px;
-          }
+        }
+      .kode{
+      width: 40vh;
+      height: 40vh;
+        }
+      .css{
+      width: 30vh;
+      height: 50vh;
+      }
+      
+/*portlie side*/
+.portfolie1{
+  width: 60%;
+  height: 40vh;
+}  
+.portfolie2{
+  width: 75%;
+  height: 70vh;
+} 
+.billede1{
+  width: 40vh;
+  height: 40vh;
+}
+
+.billede2{
+  width: 40vh;
+  height: 30vh;
+}
 }
 /* Nu kommer web*/
 @media only screen and (min-width:900px){            
@@ -168,4 +296,27 @@ body{
         div {
         font-size: 40px;
           }
+.krokodille1{
+  width: 35vh;
+  height: 20vh ;
+}
+.animationcss1{
+  width: 30vh;
+  height:30vh ;
+} 
+  /*om mig side style */
+  .photo{
+    width: 30%;
+  }
+  .animationbilleder{
+    width: 20%;
+    display: flex;
+    margin: auto;
+    padding: 30px;
+  }
+  /*portlie side*/
+.portfolie1{
+  width: 60%;
+  height: 35vh;
+}  
 }
