@@ -110,7 +110,6 @@ p{
   font-size: 20px;
   margin: 1px;
   letter-spacing: 2px;
-  text-shadow: 1px;
 
 }
 /*portlie side*/
@@ -284,7 +283,7 @@ p{
       nav a{
         list-style: none;
         color: #D9664F;
-        padding: px 25px;
+        padding: 25px;
       }
       .overskrift{
         font-size: 140px;
